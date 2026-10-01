@@ -17,11 +17,9 @@ logs/*.log.*
 docs/
 assets/
 capturas/
-BASE.pdf
-HOWTO.pdf
 template.typ
 reporte.typ
-reporte.pdf
+*.pdf
 ~$*.docx
 
 # Archivos del entorno
