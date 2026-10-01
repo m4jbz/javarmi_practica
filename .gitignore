@@ -1,0 +1,32 @@
+# Artefactos de compilación de Maven
+target/
+*.jar
+!**/lib/*.jar
+
+# Base de datos SQLite generada al ejecutar (el esquema oficial está en db/*.sql)
+db/agenda.db
+db/agenda.db-wal
+db/agenda.db-shm
+
+# Bitácora de auditoría generada al ejecutar
+logs/*.log
+logs/*.log.lck
+logs/*.log.*
+
+# Material de la práctica y del reporte (no forma parte del código)
+docs/
+assets/
+capturas/
+BASE.pdf
+HOWTO.pdf
+template.typ
+reporte.typ
+reporte.pdf
+~$*.docx
+
+# Archivos del entorno
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
